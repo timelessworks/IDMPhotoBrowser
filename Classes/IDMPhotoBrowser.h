@@ -41,9 +41,9 @@
 
 // View customization
 @property (nonatomic) BOOL displayDoneButton;
-@property (nonatomic) BOOL useWhiteBackgroundColor;
+@property (nonatomic) BOOL lightContent;
 @property (nonatomic, weak) UIImage *doneButtonImage;
-@property (nonatomic, weak) UIColor *trackTintColor, *progressTintColor;
+@property (nonatomic, weak) UIColor *trackTintColor, *progressTintColor, *backgroundColor;
 
 @property (nonatomic, weak) UIImage *scaleImage;
 
